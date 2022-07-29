@@ -1,0 +1,11 @@
+LK_RD_HB_Tile=河上的绿影
+LK_RD_HB_P0=这棵树在我出生前就已经伫立在那里了
+LK_RD_HB_P1=绿色的树荫投影在小河平镜般的水中
+LK_RD_HB_P2=有一天
+LK_RD_HB_P3=一片新鲜的树叶映入了我的眼帘
+LK_RD_HB_P4=我晓得那是春天
+LK_RD_HB_P5=为此我高兴了很久
+LK_RD_HB_P6=直到秋天来到
+LK_RD_HB_P7=好些叶子让风染成了金黄
+LK_RD_HB_P8=很快，它们就掉落了
+LK_RD_HB_P9=我很伤心

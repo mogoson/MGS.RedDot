@@ -1,0 +1,11 @@
+LK_RD_HB_Tile=Green Shadow On The River
+LK_RD_HB_P0=This tree before I was born
+LK_RD_HB_P1=Has cast green shadow on the river
+LK_RD_HB_P2=One day
+LK_RD_HB_P3=A fresh leaf came into eyes
+LK_RD_HB_P4=I know it's spring
+LK_RD_HB_P5=Happy for a long time
+LK_RD_HB_P6=Until autumn comes
+LK_RD_HB_P7=A few leaves were dyed yellow by the wind
+LK_RD_HB_P8=Soon, they fell down
+LK_RD_HB_P9=And my heart was broken
