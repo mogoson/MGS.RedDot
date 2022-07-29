@@ -1,6 +1,6 @@
 # MGS.RedDot
 ## Summary
-- Red dot system for C# project.
+- Red dot plugin for C# project.
 
 ## Environment
 - Unity 5.0 or above.
