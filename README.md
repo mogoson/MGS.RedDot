@@ -17,6 +17,32 @@
 - Base class to collect state changes.
 - Base class to register and unregister children dots.
 
+## Usage
+
+- Inherited from Base class RedDot.
+
+```C#
+public class Leaf : RedDot
+{
+    public Color Color
+    {
+        set
+        {
+            //Check the value is changed?
+            if (value != color)
+            {
+                color = value;
+                
+                //Set red state if value is changed.
+                IsRed = true;
+            }
+        }
+        get { return color; }
+    }
+    protected Color color;
+}
+```
+
 ------
 
 Copyright © 2022 Mogoson.	mogoson@outlook.com
