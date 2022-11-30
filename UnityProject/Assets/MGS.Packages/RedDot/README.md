@@ -9,6 +9,10 @@
 ## Platform
 - Windows.
 
+## Version
+
+- 0.1.0
+
 ## Demand
 - Mark a data struct is red(dirty) if self changed or children data struct changed.
 
