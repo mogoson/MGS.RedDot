@@ -1,0 +1,7 @@
+{
+    "description": "Red dot plugin for C# project.",
+    "displayName": "Red Dot",
+    "name": "com.mgs.reddot",
+    "unity": "2021.3",
+    "version": "1.0.0"
+}
