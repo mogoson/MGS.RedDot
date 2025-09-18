@@ -1,7 +1,23 @@
 {
-    "description": "Red dot plugin for C# project.",
-    "displayName": "Red Dot",
-    "name": "com.mgs.reddot",
+    "name": "com.mgs.dirtytree",
+    "version": "1.0.0",
+    "displayName": "Dirty Tree",
+    "description": "Dirty tree plugin for unity project develop.",
     "unity": "2021.3",
-    "version": "1.0.0"
+    "keywords": [
+        "dirty",
+        "tree"
+    ],
+    "author": {
+        "name": "Mogoson",
+        "email": "mogoson@outlook.com",
+        "url": "https://github.com/mogoson"
+    },
+    "samples": [
+        {
+            "displayName": "Sample",
+            "description": "Sample for dirty tree",
+            "path": "Samples~/Sample"
+        }
+    ]
 }

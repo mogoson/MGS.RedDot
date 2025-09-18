@@ -1,8 +1,8 @@
 ﻿/*************************************************************************
  *  Copyright © 2022 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
- *  File         :  IRedDot.cs
- *  Description  :  Interface of red dot.
+ *  File         :  IDirtyBranch.cs
+ *  Description  :  Interface of dirty branch.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
  *  Version      :  1.0
@@ -12,43 +12,48 @@
 
 using System;
 
-namespace MGS.RedDots
+namespace MGS.DirtyTree
 {
     /// <summary>
-    /// Interface of red dot.
+    /// Interface of dirty branch.
     /// </summary>
-    public interface IRedDot : IDisposable
+    public interface IDirtyBranch
     {
         /// <summary>
-        /// On flicker event.
+        /// On branch reset event.
         /// </summary>
-        event Action<bool> OnFlicker;
+        event Action OnReset;
 
         /// <summary>
-        /// This dot is red(dirty)?
+        /// On branch dirty event.
         /// </summary>
-        bool IsRed { get; }
+        event Action<bool> OnDirty;
 
         /// <summary>
-        /// Reset dot state.
+        /// This branch is dirty?
+        /// </summary>
+        bool IsDirty { set; get; }
+
+        /// <summary>
+        /// Reset branch state.
         /// </summary>
         void Reset();
 
         /// <summary>
-        /// Register child dot.
+        /// Register child branch.
         /// </summary>
         /// <param name="child"></param>
-        void Register(IRedDot child);
+        void Register(IDirtyBranch child);
 
         /// <summary>
-        /// Unregister child dot. 
+        /// Unregister child branch. 
         /// </summary>
         /// <param name="child"></param>
-        void Unregister(IRedDot child);
+        void Unregister(IDirtyBranch child);
 
         /// <summary>
-        /// Clear all child dots.
+        /// Unregister all child branches.
         /// </summary>
-        void Clear();
+        void Unregisters();
     }
 }

@@ -1,12 +1,5 @@
 {
   "dependencies": {
-    "com.mgs.localization": {
-      "version": "https://github.com/mogoson/MGS.Localization.git?path=/Assets",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "30dc3dc52dab694be9a38a99a4ab223da8092997"
-    },
     "com.unity.collab-proxy": {
       "version": "2.3.1",
       "depth": 0,

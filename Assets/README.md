@@ -1,52 +1,21 @@
-# MGS.RedDot
+[TOC]
+
+# MGS.DirtyTree
 ## Summary
-- Red dot plugin for C# project.
+- Dirty tree plugin for unity project develop.
 
-## Environment
-- Unity 5.0 or above.
-- .Net Framework 3.5 or above.
+## Install
 
-## Platform
-- Windows.
+- Unity --> Window --> Package Manager --> "+" --> Add package from git URL...
 
-## Version
+  ```text
+  https://github.com/mogoson/MGS.DirtyTree.git?path=/Assets
+  ```
 
-- 0.1.0
+## Samples
 
-## Demand
-- Mark a data struct is red(dirty) if self changed or children data struct changed.
-
-## Design
-
-- Base class to collect state changes.
-- Base class to register and unregister children dots.
-
-## Usage
-
-- Inherited from Base class RedDot.
-
-```C#
-public class Leaf : RedDot
-{
-    public Color Color
-    {
-        set
-        {
-            //Check the value is changed?
-            if (value != color)
-            {
-                color = value;
-                
-                //Set red state if value is changed.
-                IsRed = true;
-            }
-        }
-        get { return color; }
-    }
-    protected Color color;
-}
-```
+- Unity --> Window --> Package Manager --> Packages-Mogoson --> Dirty Tree --> Samples.
 
 ------
 
-Copyright © 2022 Mogoson.	mogoson@outlook.com
+Copyright © 2025 Mogoson.	mogoson@outlook.com
