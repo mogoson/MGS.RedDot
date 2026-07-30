@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.mgs.assistant": {
+      "version": "https://github.com/mogoson/MGS.Assistant.git?path=/Assets",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "09a1112b982ffae128edc57959f5de19d7041ae1"
+    },
     "com.unity.collab-proxy": {
       "version": "2.3.1",
       "depth": 0,

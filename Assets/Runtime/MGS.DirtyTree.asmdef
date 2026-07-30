@@ -1,6 +1,6 @@
 {
     "name": "MGS.DirtyTree",
-    "rootNamespace": "",
+    "rootNamespace": "MGS.DirtyTree",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
